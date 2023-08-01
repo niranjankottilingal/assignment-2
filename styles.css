@@ -1,0 +1,142 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif; /* Default font for the entire website */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  nav {
+    font-family: 'Arial', sans-serif; /* Apply Arial font to the navigation links */
+  }
+  
+  nav a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Improved styles for the "About Us" section */
+  .about-content {
+    background-color: #ff8c00;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .about-content .about-image {
+    background-color: #fff; /* Change the background color for the image */
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .about-content .about-text-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Change the background color for the text overlay */
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .about-content h2 {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat font for headings */
+    color: #ff8c00;
+    margin-bottom: 15px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif; /* Apply Open Sans font for paragraph text */
+  }
+  
+  /* Animated effect for the "About Us" section on hover */
+  .about-content:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Additional styles for call-to-action buttons */
+  .call-to-action-btn {
+    display: inline-block;
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font for the call-to-action button */
+    transition: background-color 0.3s ease;
+  }
+  
+  a .call-to-action-btn:hover {
+    background-color: #f67800;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    header h1 {
+      font-size: 28px;
+    }
+  
+    nav a {
+      font-size: 16px;
+    }
+  
+    .about-content h2 {
+      font-size: 24px;
+    }
+  
+    .about-content p {
+      font-size: 16px;
+    }
+  }
+  
